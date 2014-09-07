@@ -1,8 +1,8 @@
-var os = require('ti-os'),
+var os = require('titanium-os'),
 	should = require('should');
 require('ti-mocha');
 
-describe('ti-os', function() {
+describe('titanium-os', function() {
 
 	it('exports modules', function() {
 		should.exist(os);

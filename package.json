@@ -1,5 +1,5 @@
 {
-  "name": "ti-os",
+  "name": "titanium-os",
   "version": "0.1.0",
   "description": "node.js-style os for Titanium",
   "keywords": [
@@ -8,11 +8,11 @@
     "console"
   ],
   "author": "Tony Lukasavage <anthony.lukasavage@gmail.com>",
-  "repository": "git://github.com/tonylukasavage/ti-os.git",
-  "main": "./ti-os.js",
-  "homepage": "https://github.com/tonylukasavage/ti-os",
+  "repository": "git://github.com/tonylukasavage/titanium-os.git",
+  "main": "./titanium-os.js",
+  "homepage": "https://github.com/tonylukasavage/titanium-os",
   "bugs": {
-    "url": "https://github.com/tonylukasavage/ti-os/issues",
+    "url": "https://github.com/tonylukasavage/titanium-os/issues",
     "email": "anthony.lukasavage@gmail.com"
   },
   "licenses": "MIT",

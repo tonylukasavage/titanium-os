@@ -8,12 +8,12 @@ module.exports = function(grunt) {
       options: {
         jshintrc: true
       },
-      src: ['src/ti-os.js', 'test/**/*.js']
+      src: ['src/titanium-os.js', 'test/**/*.js']
     },
     browserify: {
       app: {
         files: {
-          'ti-os.js': ['src/ti-os.js']
+          'titanium-os.js': ['src/titanium-os.js']
         }
       }
     },
@@ -25,7 +25,7 @@ module.exports = function(grunt) {
       },
       app: {
         files: {
-          'tmp/app/Resources': ['ti-os.js', 'test/app.js',
+          'tmp/app/Resources': ['titanium-os.js', 'test/app.js',
             'node_modules/should/should.js', 'node_modules/ti-mocha/ti-mocha.js']
         }
       }
@@ -42,10 +42,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-titanium');
 
   // finalize build
-  grunt.registerTask('finalize', 'finalize ti-os.js file', function() {
-    var code = fs.readFileSync('ti-os.js', 'utf8'),
+  grunt.registerTask('finalize', 'finalize titanium-os.js file', function() {
+    var code = fs.readFileSync('titanium-os.js', 'utf8'),
       match = code.match(/\[(\d+)\]\);?\s*$/);
-    fs.writeFileSync('ti-os.js', 'module.exports=' + code.replace(/;\s*$/,'') +
+    fs.writeFileSync('titanium-os.js', 'module.exports=' + code.replace(/;\s*$/,'') +
       '(' + match[1] + ');');
   });
 
