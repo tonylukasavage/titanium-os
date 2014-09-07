@@ -1,18 +1,18 @@
 {
-  "name": "ti-console",
-  "version": "0.1.2",
-  "description": "node.js-style console for Titanium",
+  "name": "ti-os",
+  "version": "0.0.0",
+  "description": "node.js-style os for Titanium",
   "keywords": [
     "titanium",
     "appcelerator",
     "console"
   ],
   "author": "Tony Lukasavage <anthony.lukasavage@gmail.com>",
-  "repository": "git://github.com/tonylukasavage/ti-console.git",
-  "main": "./ti-console.js",
-  "homepage": "https://github.com/tonylukasavage/ti-console",
+  "repository": "git://github.com/tonylukasavage/ti-os.git",
+  "main": "./ti-os.js",
+  "homepage": "https://github.com/tonylukasavage/ti-os",
   "bugs": {
-    "url": "https://github.com/tonylukasavage/ti-console/issues",
+    "url": "https://github.com/tonylukasavage/ti-os/issues",
     "email": "anthony.lukasavage@gmail.com"
   },
   "licenses": "MIT",
