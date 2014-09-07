@@ -35,9 +35,9 @@ exports.release = function() {
 	return _release || (_release = Ti.Platform.version);
 };
 
-exports.uptime = function () { return 0 };
+exports.uptime = function () { return 0; };
 
-exports.loadavg = function () { return [] };
+exports.loadavg = function () { return []; };
 
 exports.freemem = function () {
 	var avail = Ti.Platform.availableMemory;
@@ -52,8 +52,8 @@ exports.totalmem = function () {
 	return Number.MAX_VALUE;
 };
 
-exports.cpus = function () { return [] };
+exports.cpus = function () { return []; };
 
-exports.networkInterfaces = exports.getNetworkInterfaces = function () { return {} };
+exports.networkInterfaces = exports.getNetworkInterfaces = function () { return {}; };
 
 exports.EOL = '\n';
