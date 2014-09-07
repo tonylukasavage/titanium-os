@@ -12,9 +12,8 @@ $ cp node_modules/titanium-os/titanium-os.js /path/to/project/Resources/
 ## example
 
 ```js
-var console = require("titanium-os");
-console.log("Hello from %s version %s!", Ti.Platform.name, Ti.Platform.version);
+var os = require("titanium-os");
+console.log(os.platform() + ' is the same as ' + Ti.Platform.name);
 ```
 
 [browserify]: https://github.com/substack/node-browserify
-[os-browserify]: https://github.com/CoderPuppy/os-browserify
