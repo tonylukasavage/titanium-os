@@ -65,7 +65,7 @@ describe('ti-os', function() {
 	});
 
 	it('invokes os.loadavg', function() {
-		os.uptime().should.be.an.Array;
+		os.loadavg().should.be.an.Array;
 	});
 
 	it('invokes os.totalmem', function() {
@@ -77,7 +77,7 @@ describe('ti-os', function() {
 	});
 
 	it('invokes os.cpus', function() {
-		os.freemem().should.be.an.Object;
+		os.cpus().should.be.an.Object;
 	});
 
 	it('invokes os.networkInterfaces', function() {
